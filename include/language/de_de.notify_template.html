@@ -1,0 +1,338 @@
+<!--
+/*********************************************************************************
+ * Deutsche Sprachdatei für SugarCRM 6.5 (C) iscon group kft. Robert Laussegger
+ * Die Weitergabe oder Vervielfältigung dieser Datei ist ausdrücklich verboten
+ * Lizensiert für: xxtobereplacedxx--------------------------------------
+ * 
+ ********************************************************************************/
+-->
+
+<!-- BEGIN: Quote_Subject -->
+SugarCRM Angebot - {QUOTE_SUBJECT}
+<!-- END: Quote_Subject -->
+<!-- BEGIN: Quote -->
+{ASSIGNER} hat ein Angebot zugewiesen an {ASSIGNED_USER}.
+
+Betreff:                     {QUOTE_SUBJECT}
+Status:                      {QUOTE_STATUS}
+Erwartetes Abschlussdatum:   {QUOTE_CLOSEDATE}
+Beschreibung:                {QUOTE_DESCRIPTION}
+
+Sie können sich das Angebot ansehen unter:
+<{URL}>
+<!-- END: Quote -->
+
+
+<!-- BEGIN: Account_Subject -->
+SugarCRM Firma - {ACCOUNT_NAME}
+<!-- END: Account_Subject -->
+<!-- BEGIN: Account -->
+{ASSIGNER} hat eine Firma zugewiesen an {ASSIGNED_USER}.
+
+Name:           {ACCOUNT_NAME}
+Typ:            {ACCOUNT_TYPE}
+Beschreibung:   {ACCOUNT_DESCRIPTION}
+
+Sie können sich die Firma ansehen unter:
+<{URL}>
+<!-- END: Account -->
+
+
+<!-- BEGIN: Case_Subject -->
+SugarCRM Fall - {CASE_SUBJECT}
+<!-- END: Case_Subject -->
+<!-- BEGIN: Case -->
+{ASSIGNER} hat einen Fall zugewiesen an {ASSIGNED_USER}.
+
+Betreff:        {CASE_SUBJECT}
+Priorität:      {CASE_PRIORITY}
+Status:         {CASE_STATUS}
+Beschreibung:   {CASE_DESCRIPTION}
+
+Sie können sich den Fall ansehen unter:
+<{URL}>
+<!-- END: Case -->
+
+
+<!-- BEGIN: Task_Subject -->
+SugarCRM Aufgabe - {TASK_SUBJECT}
+<!-- END: Task_Subject -->
+<!-- BEGIN: Task -->
+{ASSIGNER} hat eine Aufgabe zugewiesen an {ASSIGNED_USER}.
+
+Betreff:        {TASK_SUBJECT}
+Priorität:      {TASK_PRIORITY}
+Fällig am:      {TASK_DUEDATE}
+Status:         {TASK_STATUS}
+Beschreibung:   {TASK_DESCRIPTION}
+
+Sie können sich die Aufgabe ansehen unter:
+<{URL}>
+<!-- END: Task -->
+
+
+<!-- BEGIN: Meeting_Subject -->
+SugarCRM Meeting - {MEETING_SUBJECT}
+<!-- END: Meeting_Subject -->
+<!-- BEGIN: Meeting -->
+To: {MEETING_TO},
+
+{ASSIGNER} hat Sie zu einem Meeting eingeladen
+
+Betreff:		{MEETING_SUBJECT}
+Beginndatum:	{MEETING_STARTDATE}
+Enddatum:		{MEETING_ENDDATE}
+<!-- BEGIN: Meeting_External_API -->
+Meeting URL: 	{MEETING_URL}
+<!-- END: Meeting_External_API -->
+
+
+Einladung akzeptieren:
+<{ACCEPT_URL}&accept_status=accept>
+
+Mit Vorbehalt akzeptieren:
+<{ACCEPT_URL}&accept_status=tentative>
+
+Ablehnen:
+<{ACCEPT_URL}&accept_status=decline>
+
+<!-- END: Meeting -->
+
+<!-- BEGIN: MeetingSpecial_Subject -->
+SugarCRM Meeting - {MEETING_SUBJECT}
+<!-- END: MeetingSpecial_Subject -->
+<!-- BEGIN: MeetingSpecial -->
+{ASSIGNER} hat ein Meeting zugewiesen an {ASSIGNED_USER}.
+
+Betreff: 		{MEETING_SUBJECT}
+Status:			{MEETING_STATUS}
+Beginndatum:	{MEETING_STARTDATE}
+Enddatum: 		{MEETING_ENDDATE}
+Beschreibung: 	{MEETING_DESCRIPTION}
+
+Sie können sich dieses Meeting ansehen unter:
+<{URL}>
+<!-- END: MeetingSpecial -->
+
+
+<!-- BEGIN: Email_Subject -->
+SugarCRM E-Mail - {EMAIL_SUBJECT}
+<!-- END: Email_Subject -->
+<!-- BEGIN: Email -->
+{ASSIGNER} hat eine E-Mail zugewiesen an {ASSIGNED_USER}.
+
+Betreff:       {EMAIL_SUBJECT}
+Gesendet am:   {EMAIL_DATESENT}
+
+Sie können sich die E-Mail ansehen unter:
+<{URL}>
+<!-- END: Email -->
+
+
+
+
+
+
+<!-- BEGIN: Contact_Subject -->
+SugarCRM Contact - {CONTACT_NAME}
+<!-- END: Contact_Subject -->
+<!-- BEGIN: Contact -->
+{ASSIGNER} hat einen Kontakt zugewiesen an {ASSIGNED_USER}.
+
+Name:         {CONTACT_NAME}
+Beschreibung: {CONTACT_DESCRIPTION}
+
+Sie können sich diesen Kontakt ansehen unter:
+<{URL}>
+<!-- END: Contact -->
+
+
+<!-- BEGIN: Lead_Subject -->
+SugarCRM Interessent - {LEAD_NAME}
+<!-- END: Lead_Subject -->
+<!-- BEGIN: Lead -->
+{ASSIGNER} hat einen Interessent zugewiesen an {ASSIGNED_USER}.
+
+Name: {LEAD_NAME}
+Quelle/Herkunft: {LEAD_SOURCE}
+Status:          {LEAD_STATUS}
+Beschreibung:    {LEAD_DESCRIPTION}
+
+Sie können sich diesen Interessent ansehen unter:
+<{URL}>
+<!-- END: Lead -->
+
+
+<!-- BEGIN: Opportunity_Subject -->
+SugarCRM Verkaufschance - {OPPORTUNITY_NAME}
+<!-- END: Opportunity_Subject -->
+<!-- BEGIN: Opportunity -->
+{ASSIGNER} hat eine Verkaufschance zugewiesen an {ASSIGNED_USER}.
+
+Name: {OPPORTUNITY_NAME}
+Betrag:                    {OPPORTUNITY_AMOUNT}
+Erwartetes Abschlussdatum: {OPPORTUNITY_CLOSEDATE}
+Verkaufsphase:             {OPPORTUNITY_STAGE}
+Beschreibung:              {OPPORTUNITY_DESCRIPTION}
+
+Sie können sich diese Verkaufschance ansehen unter:
+<{URL}>
+<!-- END: Opportunity -->
+
+
+<!-- BEGIN: Bug_Subject -->
+SugarCRM Fehler - {BUG_SUBJECT}
+<!-- END: Bug_Subject -->
+<!-- BEGIN: Bug -->
+{ASSIGNER} einen Fehler (Bug) zugewiesen an {ASSIGNED_USER}.
+
+Fehlernummer: {BUG_BUG_NUMBER}
+Betreff:      {BUG_SUBJECT}
+Typ:          {BUG_TYPE}
+Priorität:    {BUG_PRIORITY}
+Status:       {BUG_STATUS}
+Lösung:       {BUG_RESOLUTION}
+Release:      {BUG_RELEASE}
+Beschreibung: {BUG_DESCRIPTION}
+Arbeitslog:   {BUG_WORK_LOG}
+
+Sie können sich diesen Fehler ansehen unter:
+<{URL}>
+<!-- END: Bug -->
+
+
+<!-- BEGIN: Default_Subject -->
+SugarCRM - Zugewiesen (e/r/s) {OBJECT}
+<!-- END: Default_Subject -->
+<!-- BEGIN: Default -->
+{ASSIGNER} hat ein(e) {OBJECT} zugewiesen an {ASSIGNED_USER}.
+
+Sie können sich diese(n/s) {OBJECT} ansehen unter:
+<{URL}>
+<!-- END: Default -->
+
+<!-- BEGIN: Call_Subject -->
+SugarCRM Anruf - {CALL_SUBJECT}
+<!-- END: Call_Subject -->
+<!-- BEGIN: Call -->
+An: {CALL_TO},
+ {ASSIGNER} hat Sie zu einem Anruf eingeladen
+Betreff:      {CALL_SUBJECT}
+Status:       {CALL_STATUS}
+Datum:        {CALL_STARTDATE}
+Dauer:        {CALL_HOURS}h, {CALL_MINUTES}m
+Beschreibung: {CALL_DESCRIPTION}
+
+Akzeptieren:
+<{ACCEPT_URL}&accept_status=accept>
+
+Vorbehaltlich akzeptieren:
+<{ACCEPT_URL}&accept_status=tentative>
+
+Ablehnen:
+<{ACCEPT_URL}&accept_status=decline>
+
+<!-- END: Call -->
+
+<!-- BEGIN: CallSpecial_Subject -->
+SugarCRM Anruf - {CALL_SUBJECT}
+<!-- END: CallSpecial_Subject -->
+<!-- BEGIN: CallSpecial -->
+{ASSIGNER} hat einen Anruf zugewiesen an {ASSIGNED_USER}.
+
+Betreff:      {CALL_SUBJECT}
+Status:       {CALL_STATUS}
+Datum:        {CALL_STARTDATE}
+Dauer:        {CALL_HOURS}h, {CALL_MINUTES}m
+Beschreibung: {CALL_DESCRIPTION}
+
+Sie können sich diesen Anruf ansehen unter:
+<{URL}>
+<!-- END: CallSpecial -->
+
+<!-- BEGIN: Campaign_Subject -->
+SugarCRM Kampagne - {CAMPAIGN_NAME}
+<!-- END: Campaign_Subject -->
+<!-- BEGIN: Campaign -->
+{ASSIGNER} hat eine Kampagne zugewiesen an {ASSIGNED_USER}.
+
+Betreff:       {CAMPAIGN_NAME}
+Betrag:        {CAMPAIGN_AMOUNT}
+Dauer bis zum: {CAMPAIGN_CLOSEDATE}
+Status:        {CAMPAIGN_STATUS}
+Beschreibung:  {CAMPAIGN_DESCRIPTION}
+
+Sie können sich diese Kampagne ansehen unter:
+<{URL}>
+<!-- END: Campaign -->
+
+<!-- BEGIN: Quota_Subject -->
+SugarCRM Verkaufsziel - Ihr Verkaufsziel für {QUOTA_TIMEPERIOD}
+<!-- END: Quota_Subject -->
+<!-- BEGIN: Quota -->
+{ASSIGNER} hat ein Verkaufsziel zugewiesen an {ASSIGNED_USER}.
+
+Betrag:  {QUOTA_AMOUNT}
+Periode: {QUOTA_TIMEPERIOD}
+
+Sie können sich das Verkaufsziel ansehen unter:
+<{QUOTA_URL}>
+<!-- END: Quota -->
+
+<!-- BEGIN: KBDocument_Subject -->
+SugarCRM Dokument - {KBDOCUMENT_NAME}
+<!-- END: KBDocument_Subject -->
+<!-- BEGIN: KBDocument -->
+
+{NOTIFICATION_MESSAGE}
+
+Name: {KBDOCUMENT_NAME}
+Erstellungsdatum: {KBDOCUMENT_DATE_CREATED}
+Erstellt von:     {KBDOCUMENT_CREATED_BY}
+Status:           {KBDOCUMENT_STATUS}
+Beschreibung:     {KBDOCUMENT_DESCRIPTION}
+
+Sie können sich dieses Dokument ansehen unter:
+<{URL}>
+<!-- END: KBDocument -->
+
+<!-- BEGIN: Contract_Subject -->
+SugarCRM Vertrag - {CONTRACT_NAME}
+<!-- END: Contract_Subject -->
+<!-- BEGIN: Contract-->
+
+{ASSIGNER} hat einen Vertrag zugewiesen an {ASSIGNED_USER}.
+
+Sie können sich diesen Vertrag ansehen unter:
+<{URL}>
+<!-- END:Contract-->
+
+<!-- BEGIN: ContractSpecial_Subject -->
+SugarCRM Vertrag - {CONTRACT_NAME}
+<!-- END: ContractSpecial_Subject -->
+<!-- BEGIN: ContractSpecial -->
+
+Ihr Vertrag: {CONTRACT_NAME} läuft aus am {CONTRACT_END_DATE}.
+
+Sie können sich diesen Vertrag ansehen unter:
+<{URL}>
+<!-- END:ContractSpecial-->
+
+<!-- BEGIN: MeetingReminder_Subject -->
+Meeting Erinnerung - {MEETING_SUBJECT}
+<!-- END: MeetingSpecial_Subject -->
+<!-- BEGIN: MeetingReminder -->
+Betreff: 		{MEETING_SUBJECT}
+Wann:			{MEETING_STARTDATE}
+Ort:			{MEETING_LOCATION}
+Erstellt von:	{MEETING_CREATED_BY}
+<!-- END: MeetingReminder -->
+
+<!-- BEGIN: CallReminder_Subject -->
+Anruf Erinnerung - {CALL_SUBJECT}
+<!-- END: CallReminder_Subject -->
+<!-- BEGIN: CallReminder -->
+Betreff:		{CALL_SUBJECT}
+Wann:			{CALL_STARTDATE}
+Erstellt von:	{CALL_CREATED_BY}
+<!-- END: CallReminder -->

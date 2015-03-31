@@ -1,0 +1,52 @@
+<?php
+$viewdefs ['KAgentProfiles'] = 
+array (
+  'EditView' => 
+  array (
+    'templateMeta' => 
+    array (
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+    ),
+    'panels' => 
+    array (
+      'default' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'name',
+          ),
+          1 => 
+          array (
+            'name' => 'kuser_name',
+          ),
+        ),
+      ),
+      'LBL_DATA_SOURCES' => 
+      array (
+        0 => 
+        array (
+          1 => 
+          array (
+            'name' => 'pool_kreport_name',
+          ),
+        ),
+      ),
+    ),
+  ),
+);
+?>
