@@ -5,7 +5,8 @@ $listViewDefs['TRSubscribers'] = array(
     'MSISDN' => array(
         'width' => '10', 
         'label' => 'LBL_MSISDN',
-        'default' => true    
+        'default' => true,
+        'link' => true
     ),
     'ACTIVATION_DATE'=> array(
         'width' => '10', 

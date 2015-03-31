@@ -27,3 +27,26 @@ $app_list_strings['call_contract_binding_dom'] = array (
     '30' => '30M.',
     '36' => '36M.'
 );
+
+  $app_list_strings['lead_source_dom'] = array (
+    '' => '',
+    'tmobile' => 'T-Mobile',
+    'wincash' => 'WinCash',  
+    /*  
+    'Cold Call' => 'Cold Call',
+    'Existing Customer' => 'Existing Customer',
+    'Self Generated' => 'Self Generated',
+    'Employee' => 'Employee',
+    'Partner' => 'Partner',
+    'Public Relations' => 'Public Relations',
+    'Direct Mail' => 'Direct Mail',
+    'Conference' => 'Conference',
+    'Trade Show' => 'Trade Show',
+    'Web Site' => 'Web Site',
+    'Word of mouth' => 'Word of mouth',
+    'Email' => 'Email',
+    'Campaign'=>'Campaign',
+    'Other' => 'Other',
+     
+     */
+  );
