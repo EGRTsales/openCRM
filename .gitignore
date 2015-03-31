@@ -1,6 +1,15 @@
-/upload/*
-/config.php
 /cache/*
-*.ext.php
 /custom/modules/*/Ext/
 /custom/application
+/custom/history/*
+/custom/working/*
+/custom/blowfish/*
+/custom/modulebuilder/*
+/config.php
+/upload/*
+
+.htaccess
+.htpasswd
+
+# Logs files can safely be ignored.
+*.log
